@@ -1,1 +1,5 @@
-# Product-Recommendation---SMART-BASKET
+# Product-Recommendation - SMART BASKET
+
+To boost customer engagement, we focused on refining our recommendation system by strategically suggesting products tailored to the most popular categories within each customer cluster, recommending complementary items based on recent purchases, and introducing curated selections from unexplored categories. This approach aims to elevate the shopping experience, maximize cross-selling opportunities, and drive sustained revenue growth.
+
+We built a data pipeline using PySpark in Google Colab Notebook to preprocess and transform e-commerce CSV data. Leveraging a KMeans clustering ML model, we segmented customers effectively. Integration with the Neo4j Sandbox facilitated seamless data transfer and schema creation within a graph database framework. Data ingestion processes were implemented to populate the Neo4j database with nodes and relationships, enabling the generation of actionable insights. The system supports personalized product recommendations by employing collaborative and content-based filtering techniques through the power of the Neo4j graph database.
